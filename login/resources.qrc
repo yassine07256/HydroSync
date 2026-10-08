@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/images/background.png</file>
+        <file>resources/images/hydrosync_logo.png</file>
+        <file>resources/images/email.png</file>
+        <file>resources/images/lock.png</file>
+        <file>resources/images/eye.png</file>
+        <file>resources/images/face_id.png</file>
+    </qresource>
+</RCC>
