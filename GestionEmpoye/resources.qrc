@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="style.qss">resources/style.qss</file>
+        <file alias="images/background.png">resources/images/background.png</file>
+        <file alias="images/bell.svg">resources/images/bell.svg</file>
+        <file alias="images/chevron.svg">resources/images/chevron.svg</file>
+        <file alias="images/download.svg">resources/images/download.svg</file>
+        <file alias="images/download_dark.svg">resources/images/download_dark.svg</file>
+        <file alias="images/edit.svg">resources/images/edit.svg</file>
+        <file alias="images/employee.svg">resources/images/employee.svg</file>
+        <file alias="images/home.svg">resources/images/home.svg</file>
+        <file alias="images/hydrosync_logo.png">resources/images/hydrosync_logo.png</file>
+        <file alias="images/logout.svg">resources/images/logout.svg</file>
+        <file alias="images/pdf.svg">resources/images/pdf.svg</file>
+        <file alias="images/performance.svg">resources/images/performance.svg</file>
+        <file alias="images/planning.svg">resources/images/planning.svg</file>
+        <file alias="images/plus.svg">resources/images/plus.svg</file>
+        <file alias="images/search.svg">resources/images/search.svg</file>
+        <file alias="images/settings.svg">resources/images/settings.svg</file>
+        <file alias="images/trash.svg">resources/images/trash.svg</file>
+        <file alias="images/user.svg">resources/images/user.svg</file>
+    </qresource>
+</RCC>

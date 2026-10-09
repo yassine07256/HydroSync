@@ -1,0 +1,139 @@
+/* =====================================================================
+   HydroSync — feuille de style globale (Qt Style Sheets)
+   Palette : bleu barre #2f78c4 · bleu logo #1170c0 · bleu clair #cfe2f6
+             texte #1b2a3a · tableau en-tête rgba(196,205,218,215)
+   Les panneaux blancs semi-transparents sont dessinés par GlassPanel (C++/QPainter).
+   ===================================================================== */
+
+/* ---------- Texte par défaut (les labels laissent voir le panneau translucide) ---------- */
+QLabel {
+    color: #1b2a3a;
+    background: transparent;
+}
+
+/* ---------- Menu latéral ---------- */
+#sidebar {
+    background: white;
+}
+#brandName {
+    color: #1170c0;
+    font-size: 15pt;
+    font-weight: bold;
+}
+#sidebar QPushButton[nav="true"] {
+    text-align: left;
+    padding: 11px 10px 11px 14px;
+    border: none;
+    background: transparent;
+    color: #111111;
+    font-size: 14pt;
+}
+#sidebar QPushButton[nav="true"]:hover:!checked {
+    background: #eaf2fb;
+}
+#sidebar QPushButton[nav="true"]:checked {
+    background: #cfe2f6;          /* page courante */
+}
+#logoutButton {
+    background: #1170c0;
+    color: white;
+    border: none;
+    border-radius: 14px;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 11pt;
+}
+#logoutButton:hover {
+    background: #2a82c9;
+}
+
+/* ---------- Barre supérieure bleue ---------- */
+#topBar {
+    background: #2f78c4;
+}
+#topBar QLineEdit {
+    background: rgba(222, 228, 235, 240);
+    border: 1px solid rgba(255, 255, 255, 120);
+    border-radius: 10px;
+    padding: 6px 10px;
+    font-size: 12pt;
+    color: #33414f;
+}
+#topBar QLabel {
+    color: white;
+}
+#topBar QToolButton {
+    border: none;
+    background: transparent;
+}
+#topBar QToolButton::menu-indicator {
+    image: none;
+}
+#userName {
+    font-weight: bold;
+    font-size: 9.5pt;
+}
+#userRole {
+    font-size: 8.5pt;
+}
+
+/* ---------- Page Employé : tableau (fond transparent) ---------- */
+#employeeTable {
+    background: transparent;
+    color: #1b2a3a;
+    font-size: 10.5pt;
+    outline: 0;
+}
+#employeeTable::item {
+    border-bottom: 1px solid rgba(120, 130, 145, 70);
+    padding-left: 4px;
+}
+#employeeTable::item:selected {
+    background: rgba(47, 120, 196, 70);
+    color: #10202f;
+}
+#employeeTable QHeaderView {
+    background: transparent;
+}
+#employeeTable QHeaderView::section {
+    background: rgba(196, 205, 218, 215);
+    color: #1b2a3a;
+    border: none;
+    padding: 6px 4px;
+    font-size: 10pt;
+}
+#employeeTable QTableCornerButton::section {
+    background: transparent;
+}
+
+/* ---------- Panneau CRUD ---------- */
+#crudButton {
+    text-align: left;
+    padding: 5px 6px;
+    border: none;
+    border-bottom: 1px solid rgba(120, 130, 145, 90);
+    color: #1b2a3a;
+    background: transparent;
+    font-size: 10pt;
+}
+#crudButton:hover {
+    background: rgba(47, 120, 196, 40);
+}
+
+/* ---------- Bouton « Exporter PDF » ---------- */
+#exportPdfButton {
+    background: #1f6fae;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 12px;
+    font-size: 9.5pt;
+}
+#exportPdfButton:hover {
+    background: #2a82c9;
+}
+
+/* ---------- Séparateur des notifications ---------- */
+#separator {
+    color: rgba(120, 130, 145, 110);
+}
